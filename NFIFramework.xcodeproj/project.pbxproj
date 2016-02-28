@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21162DA51C72609100395B90 /* NFIOutputInteractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 21162DA31C72609100395B90 /* NFIOutputInteractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2117EFD11C4C47D000A41460 /* NFIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C13C611C3D85260098AB8D /* NFIFramework.framework */; };
+		21E34F4A1C78CA9C0068C8AE /* NFICollectionViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E34F461C78CA9C0068C8AE /* NFICollectionViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21E34F4B1C78CA9C0068C8AE /* NFICollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E34F471C78CA9C0068C8AE /* NFICollectionViewDataSource.m */; };
+		21E34F4C1C78CA9C0068C8AE /* NFITableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E34F481C78CA9C0068C8AE /* NFITableViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21E34F4D1C78CA9C0068C8AE /* NFITableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E34F491C78CA9C0068C8AE /* NFITableViewDataSource.m */; };
+		21E34F501C78D1D60068C8AE /* NFIViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E34F4E1C78D1D60068C8AE /* NFIViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F422361C713FBB006C68AC /* NFICollectionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F4220A1C713FBB006C68AC /* NFICollectionItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F422371C713FBB006C68AC /* NFICollectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F4220B1C713FBB006C68AC /* NFICollectionItem.m */; };
+		21F422391C713FBB006C68AC /* NFIBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F4220D1C713FBB006C68AC /* NFIBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F4223A1C713FBB006C68AC /* NFIBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F4220E1C713FBB006C68AC /* NFIBaseModel.m */; };
+		21F4223B1C713FBB006C68AC /* NFIBaseModelMappings.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F4220F1C713FBB006C68AC /* NFIBaseModelMappings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F4223C1C713FBB006C68AC /* NFIBaseModelSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F422101C713FBB006C68AC /* NFIBaseModelSerializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F4223D1C713FBB006C68AC /* NFICustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F422111C713FBB006C68AC /* NFICustomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F4223E1C713FBB006C68AC /* NFICustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F422121C713FBB006C68AC /* NFICustomView.m */; };
+		21F422411C713FBB006C68AC /* NFIFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F422151C713FBB006C68AC /* NFIFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F422421C713FBB006C68AC /* NFIMemoryMapRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F422161C713FBB006C68AC /* NFIMemoryMapRepository.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F422431C713FBB006C68AC /* NFIMemoryMapRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F422171C713FBB006C68AC /* NFIMemoryMapRepository.m */; };
+		21F422441C713FBB006C68AC /* NFIMemoryArrayRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F422181C713FBB006C68AC /* NFIMemoryArrayRepository.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F422451C713FBB006C68AC /* NFIMemoryArrayRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F422191C713FBB006C68AC /* NFIMemoryArrayRepository.m */; };
+		21F422461C713FBB006C68AC /* NFICollectionPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F4221A1C713FBB006C68AC /* NFICollectionPresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F422471C713FBB006C68AC /* NFINavigatorContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F4221B1C713FBB006C68AC /* NFINavigatorContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F422481C713FBB006C68AC /* NFINavigatorContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F4221C1C713FBB006C68AC /* NFINavigatorContainer.m */; };
+		21F422491C713FBB006C68AC /* NFIPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F4221D1C713FBB006C68AC /* NFIPresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F4224C1C713FBB006C68AC /* NFIRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F422201C713FBB006C68AC /* NFIRepository.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F4224D1C713FBB006C68AC /* NFIRepositoryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F422211C713FBB006C68AC /* NFIRepositoryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F4224E1C713FBB006C68AC /* NFIRepositoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F422221C713FBB006C68AC /* NFIRepositoryManager.m */; };
+		21F422511C713FBB006C68AC /* NFIServiceLocator.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F422251C713FBB006C68AC /* NFIServiceLocator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F422521C713FBB006C68AC /* NFIServiceLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F422261C713FBB006C68AC /* NFIServiceLocator.m */; };
+		21F422531C713FBB006C68AC /* NFIStoryboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F422271C713FBB006C68AC /* NFIStoryboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F422541C713FBB006C68AC /* NFIStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F422281C713FBB006C68AC /* NFIStoryboard.m */; };
+		21F422571C713FBB006C68AC /* NFIUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F4222B1C713FBB006C68AC /* NFIUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F422581C713FBB006C68AC /* NFIViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F4222C1C713FBB006C68AC /* NFIViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F422591C713FBB006C68AC /* NFIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F4222D1C713FBB006C68AC /* NFIViewController.m */; };
+		21F4225A1C713FBB006C68AC /* NFIViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F4222E1C713FBB006C68AC /* NFIViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F4225B1C713FBB006C68AC /* NFIViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F4222F1C713FBB006C68AC /* NFIViewDataSource.m */; };
+		21F4225C1C713FBB006C68AC /* NFIWireframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F422301C713FBB006C68AC /* NFIWireframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F4225D1C713FBB006C68AC /* NFIWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F422311C713FBB006C68AC /* NFIWireframe.m */; };
+		21F4225E1C713FBB006C68AC /* NSBundle+NFI.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F422321C713FBB006C68AC /* NSBundle+NFI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F4225F1C713FBB006C68AC /* NSBundle+NFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F422331C713FBB006C68AC /* NSBundle+NFI.m */; };
+		21F422601C713FBB006C68AC /* UINavigationController+NFINavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F422341C713FBB006C68AC /* UINavigationController+NFINavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F422611C713FBB006C68AC /* UINavigationController+NFINavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F422351C713FBB006C68AC /* UINavigationController+NFINavigation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2117EFD21C4C47D000A41460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21C13C581C3D85260098AB8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21C13C601C3D85260098AB8D;
+			remoteInfo = Cotham;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21162DA31C72609100395B90 /* NFIOutputInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFIOutputInteractor.h; path = NFIFramework/NFIOutputInteractor.h; sourceTree = SOURCE_ROOT; };
+		2117EFCC1C4C47D000A41460 /* NFIFramework.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFIFramework.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21C13C611C3D85260098AB8D /* NFIFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFIFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21E34F461C78CA9C0068C8AE /* NFICollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFICollectionViewDataSource.h; path = NFIFramework/NFICollectionViewDataSource.h; sourceTree = SOURCE_ROOT; };
+		21E34F471C78CA9C0068C8AE /* NFICollectionViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFICollectionViewDataSource.m; path = NFIFramework/NFICollectionViewDataSource.m; sourceTree = SOURCE_ROOT; };
+		21E34F481C78CA9C0068C8AE /* NFITableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFITableViewDataSource.h; path = NFIFramework/NFITableViewDataSource.h; sourceTree = SOURCE_ROOT; };
+		21E34F491C78CA9C0068C8AE /* NFITableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFITableViewDataSource.m; path = NFIFramework/NFITableViewDataSource.m; sourceTree = SOURCE_ROOT; };
+		21E34F4E1C78D1D60068C8AE /* NFIViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFIViewCell.h; path = NFIFramework/NFIViewCell.h; sourceTree = SOURCE_ROOT; };
+		21F422081C713FAC006C68AC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NFIFramework/Info.plist; sourceTree = SOURCE_ROOT; };
+		21F4220A1C713FBB006C68AC /* NFICollectionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFICollectionItem.h; path = NFIFramework/NFICollectionItem.h; sourceTree = SOURCE_ROOT; };
+		21F4220B1C713FBB006C68AC /* NFICollectionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFICollectionItem.m; path = NFIFramework/NFICollectionItem.m; sourceTree = SOURCE_ROOT; };
+		21F4220D1C713FBB006C68AC /* NFIBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFIBaseModel.h; path = NFIFramework/NFIBaseModel.h; sourceTree = SOURCE_ROOT; };
+		21F4220E1C713FBB006C68AC /* NFIBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFIBaseModel.m; path = NFIFramework/NFIBaseModel.m; sourceTree = SOURCE_ROOT; };
+		21F4220F1C713FBB006C68AC /* NFIBaseModelMappings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFIBaseModelMappings.h; path = NFIFramework/NFIBaseModelMappings.h; sourceTree = SOURCE_ROOT; };
+		21F422101C713FBB006C68AC /* NFIBaseModelSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFIBaseModelSerializable.h; path = NFIFramework/NFIBaseModelSerializable.h; sourceTree = SOURCE_ROOT; };
+		21F422111C713FBB006C68AC /* NFICustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFICustomView.h; path = NFIFramework/NFICustomView.h; sourceTree = SOURCE_ROOT; };
+		21F422121C713FBB006C68AC /* NFICustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFICustomView.m; path = NFIFramework/NFICustomView.m; sourceTree = SOURCE_ROOT; };
+		21F422151C713FBB006C68AC /* NFIFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFIFramework.h; path = NFIFramework/NFIFramework.h; sourceTree = SOURCE_ROOT; };
+		21F422161C713FBB006C68AC /* NFIMemoryMapRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFIMemoryMapRepository.h; path = NFIFramework/NFIMemoryMapRepository.h; sourceTree = SOURCE_ROOT; };
+		21F422171C713FBB006C68AC /* NFIMemoryMapRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFIMemoryMapRepository.m; path = NFIFramework/NFIMemoryMapRepository.m; sourceTree = SOURCE_ROOT; };
+		21F422181C713FBB006C68AC /* NFIMemoryArrayRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFIMemoryArrayRepository.h; path = NFIFramework/NFIMemoryArrayRepository.h; sourceTree = SOURCE_ROOT; };
+		21F422191C713FBB006C68AC /* NFIMemoryArrayRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFIMemoryArrayRepository.m; path = NFIFramework/NFIMemoryArrayRepository.m; sourceTree = SOURCE_ROOT; };
+		21F4221A1C713FBB006C68AC /* NFICollectionPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFICollectionPresenter.h; path = NFIFramework/NFICollectionPresenter.h; sourceTree = SOURCE_ROOT; };
+		21F4221B1C713FBB006C68AC /* NFINavigatorContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFINavigatorContainer.h; path = NFIFramework/NFINavigatorContainer.h; sourceTree = SOURCE_ROOT; };
+		21F4221C1C713FBB006C68AC /* NFINavigatorContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFINavigatorContainer.m; path = NFIFramework/NFINavigatorContainer.m; sourceTree = SOURCE_ROOT; };
+		21F4221D1C713FBB006C68AC /* NFIPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFIPresenter.h; path = NFIFramework/NFIPresenter.h; sourceTree = SOURCE_ROOT; };
+		21F422201C713FBB006C68AC /* NFIRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFIRepository.h; path = NFIFramework/NFIRepository.h; sourceTree = SOURCE_ROOT; };
+		21F422211C713FBB006C68AC /* NFIRepositoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFIRepositoryManager.h; path = NFIFramework/NFIRepositoryManager.h; sourceTree = SOURCE_ROOT; };
+		21F422221C713FBB006C68AC /* NFIRepositoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFIRepositoryManager.m; path = NFIFramework/NFIRepositoryManager.m; sourceTree = SOURCE_ROOT; };
+		21F422251C713FBB006C68AC /* NFIServiceLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFIServiceLocator.h; path = NFIFramework/NFIServiceLocator.h; sourceTree = SOURCE_ROOT; };
+		21F422261C713FBB006C68AC /* NFIServiceLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFIServiceLocator.m; path = NFIFramework/NFIServiceLocator.m; sourceTree = SOURCE_ROOT; };
+		21F422271C713FBB006C68AC /* NFIStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFIStoryboard.h; path = NFIFramework/NFIStoryboard.h; sourceTree = SOURCE_ROOT; };
+		21F422281C713FBB006C68AC /* NFIStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFIStoryboard.m; path = NFIFramework/NFIStoryboard.m; sourceTree = SOURCE_ROOT; };
+		21F4222B1C713FBB006C68AC /* NFIUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFIUI.h; path = NFIFramework/NFIUI.h; sourceTree = SOURCE_ROOT; };
+		21F4222C1C713FBB006C68AC /* NFIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFIViewController.h; path = NFIFramework/NFIViewController.h; sourceTree = SOURCE_ROOT; };
+		21F4222D1C713FBB006C68AC /* NFIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFIViewController.m; path = NFIFramework/NFIViewController.m; sourceTree = SOURCE_ROOT; };
+		21F4222E1C713FBB006C68AC /* NFIViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFIViewDataSource.h; path = NFIFramework/NFIViewDataSource.h; sourceTree = SOURCE_ROOT; };
+		21F4222F1C713FBB006C68AC /* NFIViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFIViewDataSource.m; path = NFIFramework/NFIViewDataSource.m; sourceTree = SOURCE_ROOT; };
+		21F422301C713FBB006C68AC /* NFIWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFIWireframe.h; path = NFIFramework/NFIWireframe.h; sourceTree = SOURCE_ROOT; };
+		21F422311C713FBB006C68AC /* NFIWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFIWireframe.m; path = NFIFramework/NFIWireframe.m; sourceTree = SOURCE_ROOT; };
+		21F422321C713FBB006C68AC /* NSBundle+NFI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBundle+NFI.h"; path = "NFIFramework/NSBundle+NFI.h"; sourceTree = SOURCE_ROOT; };
+		21F422331C713FBB006C68AC /* NSBundle+NFI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+NFI.m"; path = "NFIFramework/NSBundle+NFI.m"; sourceTree = SOURCE_ROOT; };
+		21F422341C713FBB006C68AC /* UINavigationController+NFINavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+NFINavigation.h"; path = "NFIFramework/UINavigationController+NFINavigation.h"; sourceTree = SOURCE_ROOT; };
+		21F422351C713FBB006C68AC /* UINavigationController+NFINavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+NFINavigation.m"; path = "NFIFramework/UINavigationController+NFINavigation.m"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2117EFC91C4C47D000A41460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2117EFD11C4C47D000A41460 /* NFIFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C13C5D1C3D85260098AB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21162DA71C7260A700395B90 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				21162DA31C72609100395B90 /* NFIOutputInteractor.h */,
+			);
+			name = Interactors;
+			sourceTree = "<group>";
+		};
+		2117EFCD1C4C47D000A41460 /* NFITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NFITests;
+			path = CothamTests;
+			sourceTree = "<group>";
+		};
+		21ADFC341C7CC52E0043C1CA /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				21F4220A1C713FBB006C68AC /* NFICollectionItem.h */,
+				21F4220B1C713FBB006C68AC /* NFICollectionItem.m */,
+			);
+			name = Item;
+			sourceTree = "<group>";
+		};
+		21ADFC351C7CC5330043C1CA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				21E34F4E1C78D1D60068C8AE /* NFIViewCell.h */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		21C13C571C3D85260098AB8D = {
+			isa = PBXGroup;
+			children = (
+				21C13C631C3D85260098AB8D /* NFI */,
+				2117EFCD1C4C47D000A41460 /* NFITests */,
+				21C13C621C3D85260098AB8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21C13C621C3D85260098AB8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21C13C611C3D85260098AB8D /* NFIFramework.framework */,
+				2117EFCC1C4C47D000A41460 /* NFIFramework.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21C13C631C3D85260098AB8D /* NFI */ = {
+			isa = PBXGroup;
+			children = (
+				21F422621C713FC0006C68AC /* Source */,
+				21F422051C7139F8006C68AC /* Resources */,
+			);
+			name = NFI;
+			path = Hocket;
+			sourceTree = "<group>";
+		};
+		21E34F371C77A4C60068C8AE /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				21F422181C713FBB006C68AC /* NFIMemoryArrayRepository.h */,
+				21F422191C713FBB006C68AC /* NFIMemoryArrayRepository.m */,
+				21F422161C713FBB006C68AC /* NFIMemoryMapRepository.h */,
+				21F422171C713FBB006C68AC /* NFIMemoryMapRepository.m */,
+			);
+			name = Memory;
+			sourceTree = "<group>";
+		};
+		21E34F381C77ADA70068C8AE /* RemoteAPI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RemoteAPI;
+			sourceTree = "<group>";
+		};
+		21E34F391C77ADBF0068C8AE /* Disk */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Disk;
+			sourceTree = "<group>";
+		};
+		21E34F3A1C77ADD00068C8AE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				21F422211C713FBB006C68AC /* NFIRepositoryManager.h */,
+				21F422221C713FBB006C68AC /* NFIRepositoryManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		21F422051C7139F8006C68AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21F422081C713FAC006C68AC /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		21F422621C713FC0006C68AC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				21F422151C713FBB006C68AC /* NFIFramework.h */,
+				21F422631C713FEB006C68AC /* Entity */,
+				21F422641C71400D006C68AC /* Repository */,
+				21F422671C714050006C68AC /* UI */,
+				21F422681C714065006C68AC /* ViewDataSource */,
+				21F422691C714077006C68AC /* Presenter */,
+				21F4226A1C714085006C68AC /* ViewController */,
+				21F4226B1C7140A2006C68AC /* Navigator */,
+				21F4226C1C7140A8006C68AC /* ServiceLocator */,
+				21F4226D1C7140B5006C68AC /* Storyboard */,
+				21F4226E1C7140C7006C68AC /* Routing */,
+				21162DA71C7260A700395B90 /* Interactors */,
+				21F422661C71403E006C68AC /* Utils */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		21F422631C713FEB006C68AC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				21F4220D1C713FBB006C68AC /* NFIBaseModel.h */,
+				21F4220E1C713FBB006C68AC /* NFIBaseModel.m */,
+				21F4220F1C713FBB006C68AC /* NFIBaseModelMappings.h */,
+				21F422101C713FBB006C68AC /* NFIBaseModelSerializable.h */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		21F422641C71400D006C68AC /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				21F422201C713FBB006C68AC /* NFIRepository.h */,
+				21F422651C714022006C68AC /* Default */,
+				21E34F3A1C77ADD00068C8AE /* Manager */,
+			);
+			name = Repository;
+			sourceTree = "<group>";
+		};
+		21F422651C714022006C68AC /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				21E34F371C77A4C60068C8AE /* Memory */,
+				21E34F391C77ADBF0068C8AE /* Disk */,
+				21E34F381C77ADA70068C8AE /* RemoteAPI */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		21F422661C71403E006C68AC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				21F422321C713FBB006C68AC /* NSBundle+NFI.h */,
+				21F422331C713FBB006C68AC /* NSBundle+NFI.m */,
+				21F422341C713FBB006C68AC /* UINavigationController+NFINavigation.h */,
+				21F422351C713FBB006C68AC /* UINavigationController+NFINavigation.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		21F422671C714050006C68AC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				21F4222B1C713FBB006C68AC /* NFIUI.h */,
+				21F422111C713FBB006C68AC /* NFICustomView.h */,
+				21F422121C713FBB006C68AC /* NFICustomView.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		21F422681C714065006C68AC /* ViewDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				21ADFC341C7CC52E0043C1CA /* Item */,
+				21ADFC351C7CC5330043C1CA /* Cell */,
+				21F4222E1C713FBB006C68AC /* NFIViewDataSource.h */,
+				21F4222F1C713FBB006C68AC /* NFIViewDataSource.m */,
+				21E34F481C78CA9C0068C8AE /* NFITableViewDataSource.h */,
+				21E34F491C78CA9C0068C8AE /* NFITableViewDataSource.m */,
+				21E34F461C78CA9C0068C8AE /* NFICollectionViewDataSource.h */,
+				21E34F471C78CA9C0068C8AE /* NFICollectionViewDataSource.m */,
+			);
+			name = ViewDataSource;
+			sourceTree = "<group>";
+		};
+		21F422691C714077006C68AC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				21F4221D1C713FBB006C68AC /* NFIPresenter.h */,
+				21F4221A1C713FBB006C68AC /* NFICollectionPresenter.h */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		21F4226A1C714085006C68AC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				21F4222C1C713FBB006C68AC /* NFIViewController.h */,
+				21F4222D1C713FBB006C68AC /* NFIViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		21F4226B1C7140A2006C68AC /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				21F4221B1C713FBB006C68AC /* NFINavigatorContainer.h */,
+				21F4221C1C713FBB006C68AC /* NFINavigatorContainer.m */,
+			);
+			name = Navigator;
+			sourceTree = "<group>";
+		};
+		21F4226C1C7140A8006C68AC /* ServiceLocator */ = {
+			isa = PBXGroup;
+			children = (
+				21F422251C713FBB006C68AC /* NFIServiceLocator.h */,
+				21F422261C713FBB006C68AC /* NFIServiceLocator.m */,
+			);
+			name = ServiceLocator;
+			sourceTree = "<group>";
+		};
+		21F4226D1C7140B5006C68AC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				21F422271C713FBB006C68AC /* NFIStoryboard.h */,
+				21F422281C713FBB006C68AC /* NFIStoryboard.m */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		21F4226E1C7140C7006C68AC /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				21F422301C713FBB006C68AC /* NFIWireframe.h */,
+				21F422311C713FBB006C68AC /* NFIWireframe.m */,
+			);
+			name = Routing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21C13C5E1C3D85260098AB8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F422471C713FBB006C68AC /* NFINavigatorContainer.h in Headers */,
+				21F4225A1C713FBB006C68AC /* NFIViewDataSource.h in Headers */,
+				21F422461C713FBB006C68AC /* NFICollectionPresenter.h in Headers */,
+				21F4223B1C713FBB006C68AC /* NFIBaseModelMappings.h in Headers */,
+				21F4224D1C713FBB006C68AC /* NFIRepositoryManager.h in Headers */,
+				21F422571C713FBB006C68AC /* NFIUI.h in Headers */,
+				21F422391C713FBB006C68AC /* NFIBaseModel.h in Headers */,
+				21F4224C1C713FBB006C68AC /* NFIRepository.h in Headers */,
+				21F422601C713FBB006C68AC /* UINavigationController+NFINavigation.h in Headers */,
+				21F422511C713FBB006C68AC /* NFIServiceLocator.h in Headers */,
+				21F4225C1C713FBB006C68AC /* NFIWireframe.h in Headers */,
+				21F422491C713FBB006C68AC /* NFIPresenter.h in Headers */,
+				21F422441C713FBB006C68AC /* NFIMemoryArrayRepository.h in Headers */,
+				21F4223D1C713FBB006C68AC /* NFICustomView.h in Headers */,
+				21F422581C713FBB006C68AC /* NFIViewController.h in Headers */,
+				21F4225E1C713FBB006C68AC /* NSBundle+NFI.h in Headers */,
+				21F422361C713FBB006C68AC /* NFICollectionItem.h in Headers */,
+				21F422531C713FBB006C68AC /* NFIStoryboard.h in Headers */,
+				21F422421C713FBB006C68AC /* NFIMemoryMapRepository.h in Headers */,
+				21162DA51C72609100395B90 /* NFIOutputInteractor.h in Headers */,
+				21E34F4A1C78CA9C0068C8AE /* NFICollectionViewDataSource.h in Headers */,
+				21E34F501C78D1D60068C8AE /* NFIViewCell.h in Headers */,
+				21F4223C1C713FBB006C68AC /* NFIBaseModelSerializable.h in Headers */,
+				21E34F4C1C78CA9C0068C8AE /* NFITableViewDataSource.h in Headers */,
+				21F422411C713FBB006C68AC /* NFIFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2117EFCB1C4C47D000A41460 /* NFIFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2117EFD41C4C47D000A41460 /* Build configuration list for PBXNativeTarget "NFIFrameworkTests" */;
+			buildPhases = (
+				2117EFC81C4C47D000A41460 /* Sources */,
+				2117EFC91C4C47D000A41460 /* Frameworks */,
+				2117EFCA1C4C47D000A41460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2117EFD31C4C47D000A41460 /* PBXTargetDependency */,
+			);
+			name = NFIFrameworkTests;
+			productName = CothamTests;
+			productReference = 2117EFCC1C4C47D000A41460 /* NFIFramework.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21C13C601C3D85260098AB8D /* NFIFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21C13C751C3D85260098AB8D /* Build configuration list for PBXNativeTarget "NFIFramework" */;
+			buildPhases = (
+				21C13C5C1C3D85260098AB8D /* Sources */,
+				21C13C5D1C3D85260098AB8D /* Frameworks */,
+				21C13C5E1C3D85260098AB8D /* Headers */,
+				21C13C5F1C3D85260098AB8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFIFramework;
+			productName = Hocket;
+			productReference = 21C13C611C3D85260098AB8D /* NFIFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21C13C581C3D85260098AB8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Pedro Lopez";
+				TargetAttributes = {
+					2117EFCB1C4C47D000A41460 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					21C13C601C3D85260098AB8D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 21C13C5B1C3D85260098AB8D /* Build configuration list for PBXProject "NFIFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21C13C571C3D85260098AB8D;
+			productRefGroup = 21C13C621C3D85260098AB8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21C13C601C3D85260098AB8D /* NFIFramework */,
+				2117EFCB1C4C47D000A41460 /* NFIFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2117EFCA1C4C47D000A41460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C13C5F1C3D85260098AB8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2117EFC81C4C47D000A41460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C13C5C1C3D85260098AB8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F4225B1C713FBB006C68AC /* NFIViewDataSource.m in Sources */,
+				21F4223A1C713FBB006C68AC /* NFIBaseModel.m in Sources */,
+				21F422371C713FBB006C68AC /* NFICollectionItem.m in Sources */,
+				21F4223E1C713FBB006C68AC /* NFICustomView.m in Sources */,
+				21F422481C713FBB006C68AC /* NFINavigatorContainer.m in Sources */,
+				21F422611C713FBB006C68AC /* UINavigationController+NFINavigation.m in Sources */,
+				21F422591C713FBB006C68AC /* NFIViewController.m in Sources */,
+				21F4225F1C713FBB006C68AC /* NSBundle+NFI.m in Sources */,
+				21F422431C713FBB006C68AC /* NFIMemoryMapRepository.m in Sources */,
+				21F4225D1C713FBB006C68AC /* NFIWireframe.m in Sources */,
+				21F422521C713FBB006C68AC /* NFIServiceLocator.m in Sources */,
+				21F422541C713FBB006C68AC /* NFIStoryboard.m in Sources */,
+				21E34F4D1C78CA9C0068C8AE /* NFITableViewDataSource.m in Sources */,
+				21F422451C713FBB006C68AC /* NFIMemoryArrayRepository.m in Sources */,
+				21F4224E1C713FBB006C68AC /* NFIRepositoryManager.m in Sources */,
+				21E34F4B1C78CA9C0068C8AE /* NFICollectionViewDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2117EFD31C4C47D000A41460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21C13C601C3D85260098AB8D /* NFIFramework */;
+			targetProxy = 2117EFD21C4C47D000A41460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2117EFD51C4C47D000A41460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NFIFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.framework.NFITests;
+				PRODUCT_NAME = NFIFramework;
+			};
+			name = Debug;
+		};
+		2117EFD61C4C47D000A41460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NFIFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.framework.NFITests;
+				PRODUCT_NAME = NFIFramework;
+			};
+			name = Release;
+		};
+		21C13C731C3D85260098AB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21C13C741C3D85260098AB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		21C13C761C3D85260098AB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/NFIFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nfi.framework;
+				PRODUCT_NAME = NFIFramework;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		21C13C771C3D85260098AB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/NFIFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nfi.framework;
+				PRODUCT_NAME = NFIFramework;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2117EFD41C4C47D000A41460 /* Build configuration list for PBXNativeTarget "NFIFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2117EFD51C4C47D000A41460 /* Debug */,
+				2117EFD61C4C47D000A41460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21C13C5B1C3D85260098AB8D /* Build configuration list for PBXProject "NFIFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C13C731C3D85260098AB8D /* Debug */,
+				21C13C741C3D85260098AB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21C13C751C3D85260098AB8D /* Build configuration list for PBXNativeTarget "NFIFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C13C761C3D85260098AB8D /* Debug */,
+				21C13C771C3D85260098AB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21C13C581C3D85260098AB8D /* Project object */;
+}
