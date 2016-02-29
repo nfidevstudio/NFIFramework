@@ -19,6 +19,6 @@
 + (instancetype)sharedInstance;
 
 - (NFIStoryboard *)provideMainStoryboard;
-
+- (NFIStoryboard *)provideStoryboardByIdentifier:(NSString *)identifier;
 
 @end

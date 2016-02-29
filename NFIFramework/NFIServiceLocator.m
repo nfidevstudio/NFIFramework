@@ -37,5 +37,8 @@
     return [[NFIStoryboard alloc] initWithName:@"Main"];
 }
 
+- (NFIStoryboard *)provideStoryboardByIdentifier:(NSString *)identifier {
+    return [[NFIStoryboard alloc] initWithName:identifier];
+}
 
 @end
