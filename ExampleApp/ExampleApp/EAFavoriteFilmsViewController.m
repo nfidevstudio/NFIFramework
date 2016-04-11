@@ -27,7 +27,7 @@
 
 @implementation EAFavoriteFilmsViewController
 
-#pragma mark - View Lyfe Cicle Methods
+#pragma mark - View Life Cycle Methods
 
 - (void)viewDidLoad {
     [super viewDidLoad];

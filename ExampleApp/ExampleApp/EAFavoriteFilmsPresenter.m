@@ -28,7 +28,7 @@
     return self;
 }
 
-#pragma mark - View Lyfe Cycle Methods
+#pragma mark - View Life Cycle Methods
 
 - (void)viewWillAppear {
     [self.ui showLoadingIndicator];
@@ -58,7 +58,7 @@
     [self.wireframe presentFilmDetailViewController:[filmTapped uniqueIdentifier]];
 }
 
-#pragma mark - Interactor Output Methods.
+#pragma mark - Interactor Output Methods
 
 - (void)foundFavoriteFilms:(NSArray *)films {
     [self.ui showItems:films];

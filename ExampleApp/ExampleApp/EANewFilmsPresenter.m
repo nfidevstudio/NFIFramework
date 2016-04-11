@@ -28,7 +28,7 @@
     return self;
 }
 
-#pragma mark - View Lyfe Cycle Methods
+#pragma mark - View Life Cycle Methods
 
 - (void)viewDidLoad {
     [self.ui configureInitialViewWithTitle:@"Films In Theaters"];
@@ -69,7 +69,7 @@
     [self.wireframe presentFilmDetailViewController:[filmTapped uniqueIdentifier]];
 }
 
-#pragma mark - Interactor Output Methods.
+#pragma mark - Interactor Output Methods
 
 - (void)foundNewFilms:(NSArray *)films {
     [self.ui showItems:films];

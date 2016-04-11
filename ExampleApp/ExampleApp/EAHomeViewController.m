@@ -13,7 +13,7 @@
 
 @implementation EAHomeViewController
 
-#pragma mark - View Lyfe Cycle
+#pragma mark - View Life Cycle
 
 - (void)viewDidLoad {
     [super viewDidLoad];
