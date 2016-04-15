@@ -10,7 +10,7 @@
 
 @interface EAHomePresenter ()
 
-@property (nonatomic, strong) NSObject<EAHomeUI> *ui;
+@property (nonatomic, weak) NSObject<EAHomeUI> *ui;
 @property (nonatomic, strong) EAHomeWireframe *wireframe;
 
 @end

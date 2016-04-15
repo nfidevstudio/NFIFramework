@@ -10,7 +10,7 @@
 
 @interface EANewFilmsPresenter ()
 
-@property (nonatomic, strong) NSObject<EANewFilmsUI> *ui;
+@property (nonatomic, weak) NSObject<EANewFilmsUI> *ui;
 @property (nonatomic, strong) EANewFilmsWireframe *wireframe;
 
 @end

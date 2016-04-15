@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../NFIFramework.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:ExampleApp.xcodeproj">
    </FileRef>
    <FileRef

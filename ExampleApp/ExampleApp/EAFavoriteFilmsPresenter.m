@@ -10,7 +10,7 @@
 
 @interface EAFavoriteFilmsPresenter ()
 
-@property (nonatomic, strong) NSObject<EAFavoriteFilmsUI> *ui;
+@property (nonatomic, weak) NSObject<EAFavoriteFilmsUI> *ui;
 @property (nonatomic, strong) EAFavoriteFilmsWireframe *wireframe;
 
 @end
