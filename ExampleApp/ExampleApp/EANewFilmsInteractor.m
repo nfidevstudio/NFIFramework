@@ -16,7 +16,7 @@
 
 @implementation EANewFilmsInteractor
 
-#pragma mark - Init Methods.
+#pragma mark - Init Methods
 
 - (instancetype)initWithRepository:(id<EAFilmsRepository>)repository {
     self = [super init];

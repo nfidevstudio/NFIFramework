@@ -16,7 +16,7 @@
 
 @implementation EAFavoriteFilmsInteractor
 
-#pragma mark - Init Methods.
+#pragma mark - Init Methods
 
 - (instancetype)initWithRepository:(id<EAFavoritesRepository>)repository {
     self = [super init];

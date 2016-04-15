@@ -29,7 +29,7 @@
     return self;
 }
 
-#pragma mark - View Lyfe Cycle Methods
+#pragma mark - View Life Cycle Methods
 
 - (void)viewWillAppear {
     [self.ui showLoadingIndicator];

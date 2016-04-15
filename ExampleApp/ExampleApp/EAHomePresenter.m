@@ -28,7 +28,7 @@
     return self;
 }
 
-#pragma mark - View Lyfe Cycle Methods
+#pragma mark - View Life Cycle Methods
 
 - (void)viewDidLoad {
     // Nothing to do here.
