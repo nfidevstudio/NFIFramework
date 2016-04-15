@@ -64,7 +64,7 @@
     [self.filmsInteractor findFilmsFilterByTitle:title];
 }
 
-- (void)itemWasTapped:(NFICollectionItem *)item {
+- (void)itemWasTapped:(NSObject<NFICollectionItem> *)item {
     Film *filmTapped = (Film *)item;
     [self.wireframe presentFilmDetailViewController:[filmTapped uniqueIdentifier]];
 }

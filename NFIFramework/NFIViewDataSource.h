@@ -14,6 +14,6 @@
 
 @property (nonatomic, strong) NSMutableArray *items;
 
-- (NFICollectionItem *)itemAtIndexPath:(NSIndexPath *)indexPath;
+- (NSObject<NFICollectionItem> *)itemAtIndexPath:(NSIndexPath *)indexPath;
 
 @end

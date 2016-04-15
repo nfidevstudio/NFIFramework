@@ -28,7 +28,7 @@
 
 #pragma mark - NFI Cell Interface Implementation
 
-- (void)configureCellForItem:(NFICollectionItem *)item {
+- (void)configureCellForItem:(NSObject<NFICollectionItem> *)item {
     if ([item isKindOfClass:[Film class]]) {
         Film *film = (Film *)item;
         self.titleLabel.text = film.title;

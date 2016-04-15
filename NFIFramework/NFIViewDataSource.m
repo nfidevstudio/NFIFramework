@@ -10,7 +10,7 @@
 
 @implementation NFIViewDataSource
 
-- (NFICollectionItem *)itemAtIndexPath:(NSIndexPath *)indexPath {
+- (NSObject<NFICollectionItem> *)itemAtIndexPath:(NSIndexPath *)indexPath {
     return self.items[indexPath.item];
 }
 

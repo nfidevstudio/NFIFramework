@@ -31,8 +31,12 @@
 #import <NFIFramework/NFITableViewDataSource.h>
 #import <NFIFramework/NFIViewDataSource.h>
 #import <NFIFramework/NFICollectionViewDataSource.h>
+#import <NFIFramework/NFITableViewDataSourceProtocol.h>
 #import <NFIFramework/NFIViewCell.h>
 #import <NFIFramework/NFIRepository.h>
+#import <NFIFramework/NFISectionTableViewDataSource.h>
+#import <NFIFramework/NFITableView.h>
+#import <NFIFramework/NFITableViewCell.h>
 
 //! Project version number for NFI.
 FOUNDATION_EXPORT double NFIVersionNumber;

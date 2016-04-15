@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NFICollectionItem : NSObject
+@protocol NFICollectionItem <NSObject>
+
+- (NSString *)uniqueIdentifierForCollectionItem;
 
 @end

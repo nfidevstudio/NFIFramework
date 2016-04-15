@@ -11,6 +11,7 @@
 
 @protocol NFIViewCell <NSObject>
 
-- (void)configureCellForItem:(NFICollectionItem *)item;
+- (void)configureCellForItem:(NSObject<NFICollectionItem> *)item;
+- (NSString *)identifierForCellContent;
 
 @end

@@ -11,6 +11,6 @@
 // NFIFramework classes.
 #import "NFIFramework.h"
 
-@interface EAFilmViewCell : UITableViewCell <NFIViewCell>
+@interface EAFilmViewCell : NFITableViewCell
 
 @end

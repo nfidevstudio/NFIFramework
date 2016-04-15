@@ -53,7 +53,7 @@
 
 #pragma mark - Presenter Input Methods
 
-- (void)itemWasTapped:(NFICollectionItem *)item {
+- (void)itemWasTapped:(NSObject<NFICollectionItem> *)item {
     Film *filmTapped = (Film *)item;
     [self.wireframe presentFilmDetailViewController:[filmTapped uniqueIdentifier]];
 }

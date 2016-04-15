@@ -12,6 +12,6 @@
 
 @protocol NFICollectionPresenter <NFIPresenter>
 
-- (void)itemWasTapped:(NFICollectionItem *)item;
+- (void)itemWasTapped:(NSObject<NFICollectionItem> *)item;
 
 @end

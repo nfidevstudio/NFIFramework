@@ -69,7 +69,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    NFICollectionItem *item = [self.dataSource itemAtIndexPath:indexPath];
+    NSObject<NFICollectionItem> *item = [self.dataSource itemAtIndexPath:indexPath];
     [[self customPresenter] itemWasTapped:item];
 }
 
