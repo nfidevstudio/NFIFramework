@@ -24,6 +24,12 @@
     return self;
 }
 
+#pragma mark - Description Method
+
+- (NSString *)description {
+    return [NSString stringWithFormat:@"%@: %@", NSStringFromClass([self class]), [self dictionaryFromSelf]];
+}
+
 #pragma mark - NFIBaseModelMappings
 
 - (NSDictionary *)mappings {
@@ -85,5 +91,19 @@
     [super setValue:value forUndefinedKey:key];
 }
 
+- (NSDictionary *)dictionaryFromSelf {
+    NSMutableArray *objects = [[NSMutableArray alloc]init];
+    NSMutableArray *keys = [[NSMutableArray alloc]init];
+    unsigned int numProps = 0;
+    unsigned int i = 0;
+    objc_property_t *props = class_copyPropertyList([self class], &numProps);
+    for (i = 0; i < numProps; i++) {
+        NSString *prop = [NSString stringWithUTF8String:property_getName(props[i])];
+        [keys addObject:prop];
+        [objects addObject:([self valueForKey:prop] == nil ? [NSNull null] : [self valueForKey:prop])];
+    }
+    NSDictionary *propList = [[NSDictionary alloc] initWithObjects:objects forKeys:keys];
+    return propList;
+}
 
 @end

@@ -20,4 +20,6 @@
 
 - (NSString *)uniqueIdentifier;
 
+- (NSDictionary *)dictionaryFromSelf;
+
 @end
